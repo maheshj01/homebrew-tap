@@ -14,10 +14,24 @@ Or try the latest `main` without a tagged release:
 brew install --HEAD maheshj01/tap/squish
 ```
 
+## Using squish
+
+```bash
+squish start              # begin watching ~/Movies/squish/clips
+squish status             # settings + whether it's watching
+squish config set CRF 20  # change a setting
+squish clean              # empty clips AND compressed (asks y/N)
+squish clean clips        # empty only the watched inputs
+squish clean compressed   # empty only the compressed outputs
+squish stop               # stop watching
+```
+
+Full docs: [maheshj01/squish](https://github.com/maheshj01/squish).
+
 ## Formulae
 
-| Formula | Description | Source |
-| ------- | ----------- | ------ |
+| Formula  | Description                                         | Source                                                  |
+| -------- | --------------------------------------------------- | ------------------------------------------------------- |
 | `squish` | Watch a folder and auto-compress videos with ffmpeg | [maheshj01/squish](https://github.com/maheshj01/squish) |
 
 ## Adding a new tool
