@@ -3,8 +3,8 @@ class Squish < Formula
   homepage "https://github.com/maheshj01/squish"
   # After tagging a release (e.g. v0.1.0), point url at its tarball and fill in
   # the sha256:  curl -sL <url> | shasum -a 256
-  url "https://github.com/maheshj01/squish/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "01c801959bb862b5ab5aff0679942abe4b50fd7891934f5379776297a754b774"
+  url "https://github.com/maheshj01/squish/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "e298b8b84f72caa34471e76eba8feff699dc14ee14beba4ffd7643d2b2bbdbe9"
   license "MIT"
   head "https://github.com/maheshj01/squish.git", branch: "main"
 
